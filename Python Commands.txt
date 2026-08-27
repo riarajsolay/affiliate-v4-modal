@@ -1,0 +1,26 @@
+
+python -m modal deploy app.py
+
+python -m modal run app.py::master_orchestrator
+
+python -m modal run app.py::hunter_product_finder
+
+python -m modal run app.py::creator_v4_15_tools
+
+python -m modal volume ls affiliate-v3-storage
+
+python -m modal run app.py::poster_auto
+
+python -m modal run app.py::analyst_v2
+
+
+https://riarajsolay--affiliate-v4-modal-dashboard-home.modal.run
+
+
+API Endpoints Test:
+
+Open browser:
+
+https://riarajsolay--affiliate-v4-modal-api-channels.modal.run -> 5 channels dept wise
+https://riarajsolay--affiliate-v4-modal-api-videos.modal.run -> 10 videos by_department Fashion, Kitchen etc.
+https://riarajsolay--affiliate-v4-modal-api-sales-analytics.modal.run -> sales data (after analyst runs)

@@ -1,0 +1,15 @@
+modal
+supabase
+google-api-python-client
+gspread
+requests
+python-dotenv
+pillow
+httpx
+openai
+google-generativeai
+groq
+fastapi
+uvicorn
+pydantic
+python-multipart
